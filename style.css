@@ -1,0 +1,55 @@
+
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            width: 100%;
+            height: auto;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(245, 190, 190);
+            border-radius: 10px;
+            border: 2px black solid;
+            margin: 10px;
+            margin-bottom: 30px;
+            } 
+        main{
+            background-color: rgb(214, 163, 85);
+            border-radius: 10px;
+            border: 2px black solid;
+            margin: 10px;
+            margin-top: 15px;
+            padding: 3em;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Add this to your style.css file */
+    footer {
+    background-color: #98c1e9; /* Change to your desired color */
+    border: 2px solid #000000; /* Change to your desired border color */
+    padding: 10px; /* Optional: Add some padding */
+    text-align: center; /* Optional: Center the text */
+    }
+    
